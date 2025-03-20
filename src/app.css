@@ -1,0 +1,14 @@
+@keyframes headerHoverIn {
+  from {
+    width: 4px;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.header-hover-in {
+  transition: all ease-out 0.3s;
+  animation: headerHoverIn 0.3s forwards;
+}
+
