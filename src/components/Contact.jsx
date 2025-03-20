@@ -1,12 +1,13 @@
 import React from "react";
 import { redirect } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
+import wpImg from "/wp.jpg";
 function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    toast("Message send sucsessful.")
-    redirect('/#hero')
+    toast("Message send sucsessful.");
+    redirect("/#hero");
   };
   return (
     <section
@@ -14,31 +15,33 @@ function Contact() {
       className="h-[calc(100vh+80px)] flex flex-col justify-center md:snap-start"
     >
       <ToastContainer />
-      <div className="w-4/5 max-w-lg mx-auto bg-green-800 px-5 py-10 rounded-lg">
-        <h3 className="font-medium text-xl text-white">Contact Us</h3>
-        <form action="#">
-          <input
-            type="text"
-            placeholder="enter your name"
-            className=" bg-transparent text-white border-2 border-[rgba(0,0,0,0.3)] w-full  px-2 py-1 rounded-md mt-2 outline-none"
-          />
-          <input
-            type="text"
-            placeholder="enter your email"
-            className="bg-transparent text-white border-2 border-[rgba(0,0,0,0.3)] w-full px-2 py-1 rounded-md mt-2 outline-none"
-          />
-          <textarea
-            name="msg"
-            placeholder="say hi..."
-            className=" bg-transparent text-white border-2 border-[rgba(0,0,0,0.3)] px-2 py-1 rounded-md mt-2 outline-none w-full min-h-[100px] max-h-[100px]"
-          ></textarea>
-          <button
-            onClick={(e) => handleFormSubmit(e)}
-            className="mt-4 px-4 py-2 bg-[#fff] text-green-900 font-medium text-lg w-32 text-center rounded-sm border-2 border-black hover:bg-green-900 hover:text-white transition-all duration-300"
+      <div className="w-4/5 max-w-lg mx-auto bg-slate-50 px-5 py-10 rounded-lg text-lg">
+        <h3 className="font-medium text-2xl text-black">Contact Info</h3>
+
+        <p>
+          <b>Name:</b> Munazzirul Hassan
+        </p>
+        <p>
+          <b>Email:</b>{" "}
+          <a
+            href="mailto:munazzirulhassan@gmail.com"
+            className=" underline text-blue-950 text-lg"
           >
-            Submit
-          </button>
-        </form>
+            munzzirulhassan@gmail.com
+          </a>
+        </p>
+        <p>
+          <b>Phone:</b>{" "}
+          <a href="tel:+8801715335833" className=" underline text-blue-950">
+            +8801715335833
+          </a>
+        </p>
+        <p>
+          <b>Location:</b>{" "}
+          <a className=" underline text-blue-950" href="https://www.google.com/maps/place/Kurua+Rd/@24.7762721,91.7747935,17z/data=!4m15!1m8!3m7!1s0x375104224a77d4ed:0x2382fee02fb56fb2!2sKurua+Rd!3b1!8m2!3d24.7757948!4d91.7655452!16s%2Fg%2F11bx288ycs!3m5!1s0x375104224a77d4ed:0x2382fee02fb56fb2!8m2!3d24.7757948!4d91.7655452!16s%2Fg%2F11bx288ycs?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D">
+            Kurua, Osmaninagar, Sylhet.
+          </a>
+        </p>
       </div>
     </section>
   );
