@@ -13,9 +13,12 @@ function App() {
       <Hero />
       <CustomBreak />
       <Products />
+      <CustomBreak />
       <Testimonial />
+      <CustomBreak />
       <Contact />
-      <Footer/>
+      <CustomBreak />
+      <Footer />
     </>
   );
 }
