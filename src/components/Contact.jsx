@@ -10,21 +10,21 @@ function Contact() {
         <h3 className="font-medium text-2xl text-black">Contact Info</h3>
 
         <p>
-          <b>Name:</b> Munazzirul Hassan
+          <b>Name:</b> Mr. Hassan
         </p>
         <p>
           <b>Email:</b>{" "}
           <a
-            href="mailto:munazzirulhassan@gmail.com"
+            href="#contact"
             className=" underline text-blue-950 text-lg"
           >
-            munzzirulhassan@gmail.com
+            example1234@gmail.com
           </a>
         </p>
         <p>
           <b>Phone:</b>{" "}
-          <a href="tel:+8801715335833" className=" underline text-blue-950">
-            +8801715335833
+          <a href="#contact" className=" underline text-blue-950">
+            +880170000000
           </a>
         </p>
         <p>
