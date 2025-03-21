@@ -37,28 +37,28 @@ function Footer() {
           <a
             href="#"
             rel="noopener noreferrer"
-            className="hover:text-blue-600"
+            className="hover:text-blue-600 transition-all duration-300"
           >
             <i className="fab fa-facebook-f text-2xl"></i>
           </a>
           <a
             href="#"
             rel="noopener noreferrer"
-            className=" hover:text-blue-400"
+            className=" hover:text-blue-400 transition-all duration-300"
           >
             <i className="fab fa-twitter text-2xl"></i>
           </a>
           <a
             href="#"
             rel="noopener noreferrer"
-            className=" hover:text-pink-500"
+            className=" hover:text-pink-500 transition-all duration-300"
           >
             <i className="fab fa-instagram text-2xl"></i>
           </a>
           <a
             href="#"
             rel="noopener noreferrer"
-            className=" hover:text-blue-700"
+            className=" hover:text-blue-700 transition-all duration-300"
           >
             <i className="fab fa-linkedin-in text-2xl"></i>
           </a>
@@ -66,7 +66,7 @@ function Footer() {
             href="#"
             
             rel="noopener noreferrer"
-            className=" hover:text-red-600"
+            className=" hover:text-red-600 transition-all duration-300"
           >
             <i className="fab fa-youtube text-2xl"></i>
           </a>
