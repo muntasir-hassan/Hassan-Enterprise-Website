@@ -38,7 +38,7 @@ function Contact() {
         </p>
         <p>
           <b>Location:</b>{" "}
-          <a className=" underline text-blue-950" href="https://www.google.com/maps/place/Kurua+Rd/@24.7762721,91.7747935,17z/data=!4m15!1m8!3m7!1s0x375104224a77d4ed:0x2382fee02fb56fb2!2sKurua+Rd!3b1!8m2!3d24.7757948!4d91.7655452!16s%2Fg%2F11bx288ycs!3m5!1s0x375104224a77d4ed:0x2382fee02fb56fb2!8m2!3d24.7757948!4d91.7655452!16s%2Fg%2F11bx288ycs?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D">
+          <a  href="https://www.google.com/maps/place//@24.77881,91.78379,17z/data=!4m6!1m5!3m4!2zMjTCsDQ2JzQzLjciTiA5McKwNDcnMDEuNiJF!8m2!3d24.77881!4d91.78379?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D" target="_blank" className=" underline text-blue-950">
             Kurua, Osmaninagar, Sylhet.
           </a>
         </p>

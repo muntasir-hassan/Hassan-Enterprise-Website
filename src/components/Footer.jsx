@@ -36,7 +36,6 @@ function Footer() {
         <div className="flex justify-center space-x-6 py-4">
           <a
             href="#"
-            target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600"
           >
@@ -44,7 +43,6 @@ function Footer() {
           </a>
           <a
             href="#"
-            target="_blank"
             rel="noopener noreferrer"
             className=" hover:text-blue-400"
           >
@@ -52,7 +50,6 @@ function Footer() {
           </a>
           <a
             href="#"
-            target="_blank"
             rel="noopener noreferrer"
             className=" hover:text-pink-500"
           >
@@ -60,7 +57,6 @@ function Footer() {
           </a>
           <a
             href="#"
-            target="_blank"
             rel="noopener noreferrer"
             className=" hover:text-blue-700"
           >
@@ -68,7 +64,7 @@ function Footer() {
           </a>
           <a
             href="#"
-            target="_blank"
+            
             rel="noopener noreferrer"
             className=" hover:text-red-600"
           >
