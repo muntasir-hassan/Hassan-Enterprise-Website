@@ -1,20 +1,11 @@
 import React from "react";
-import { redirect } from "react-router-dom";
-import { ToastContainer, toast } from "react-toastify";
-import wpImg from "/wp.jpg";
 function Contact() {
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
 
-    toast("Message send sucsessful.");
-    redirect("/#hero");
-  };
   return (
     <section
       id="contact"
       className="h-[calc(100vh+80px)] flex flex-col justify-center md:snap-start"
     >
-      <ToastContainer />
       <div className="w-4/5 max-w-lg mx-auto bg-slate-50 px-5 py-10 rounded-lg text-lg">
         <h3 className="font-medium text-2xl text-black">Contact Info</h3>
 
